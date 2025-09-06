@@ -12,3 +12,6 @@ export const PLACESHIP_PLACEMENT_ERROR = 'Invalid placement: ships must be withi
 // Cell
 export const CELL_OCCUPIED_ERROR = 'Cell already occupied'
 export const CELL_ALREADY_ATTACKED_ERROR = 'Cell already attacked'
+
+// Player
+export const PLAYER_NO_MOVES_ERROR = 'No moves left for randomAttack'
