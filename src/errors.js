@@ -15,3 +15,8 @@ export const CELL_ALREADY_ATTACKED_ERROR = 'Cell already attacked'
 
 // Player
 export const PLAYER_NO_MOVES_ERROR = 'No moves left for randomAttack'
+
+// Game Controller
+export const PHASE_ERROR = 'Invalid game phase'
+export const PLACEMENT_QUOTA_ERROR = 'No remaining ships of this length to place'
+export const FLEET_INCOMPLETE_ERROR = 'Human fleet placement incomplete'
