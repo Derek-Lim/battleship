@@ -6,6 +6,26 @@
   <title>Battleship</title>
 </head>
 <body>
+  <header>
+    <h1>Battleship</h1>
+    <div id="status"></div>
+  </header>
 
+  <main class="container">
+    <div class="board-container" id="grid-human"></div>
+    <div class="board-container" id="grid-cpu"></div>
+  </main>
+
+  <aside id="controls">
+    <div id="placement-panel">
+      <button id="rotate-btn" type="button">Rotate</button>
+      <div id="fleet-palatte"></div>
+    </div>
+    <div id="game-actions">
+      <button id="randomize-btn" type="button">Randomize</button>
+      <button id="reset-btn" type="button">Reset</button>
+      <button id="start-btn" type="button" disabled>Start</button>
+    </div>
+  </aside>
 </body>
 </html>
