@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  gap: 10em;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(10, 32px);
+  gap: 0;
+}
+
+.board__cell {
+  height: 32px;
+  width: 32px;
+  border: 1px solid #ddd;
+}
+
+.board__cell.has-ship { background: #9ec5fe; }
+.board__cell.is-hit { background: #ef4444; }
+.board__cell.is-miss { background: #e5e7eb; }
+.board__cell.is-sunk { background: #1f2937; }
+
+.palette__btn.selected {
+  border: 2px solid black;
+}

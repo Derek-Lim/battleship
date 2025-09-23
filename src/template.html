@@ -4,25 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Battleship</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <script type="module" src="./screenController/screenController.js" defer></script>
+
   <header>
     <h1>Battleship</h1>
     <div id="status"></div>
   </header>
 
   <main class="container">
-    <div class="board-container" id="grid-human"></div>
-    <div class="board-container" id="grid-cpu"></div>
+    <div class="board" id="grid-human"></div>
+    <div class="board" id="grid-cpu"></div>
   </main>
 
   <aside id="controls">
     <div id="placement-panel">
       <button id="rotate-btn" type="button">Rotate</button>
-      <div id="fleet-palatte"></div>
+      <div id="fleet-palette"></div>
+      <button id="randomize-btn" type="button">Randomize</button>
     </div>
     <div id="game-actions">
-      <button id="randomize-btn" type="button">Randomize</button>
       <button id="reset-btn" type="button">Reset</button>
       <button id="start-btn" type="button" disabled>Start</button>
     </div>
