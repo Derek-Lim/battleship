@@ -230,6 +230,3 @@ export default function ScreenController() {
 
   return { init, render }
 }
-
-const screen = ScreenController()
-screen.init()
