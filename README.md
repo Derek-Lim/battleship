@@ -1,10 +1,14 @@
 # Battleship
 
-Implementation of the Battleship game in JavaScript (The Odin Project).
+A simple Battleship game built with JavaScript for [The Odin Project](https://www.theodinproject.com).
 
-## Setup
+## Features
+- Place ships manually or randomize placement
+- Rotate ships before placement
+- Play against a CPU opponent
+- Win detection and basic status messages
+
+## Run locally
 ```bash
 npm install
-npm start   # run dev server
-npm test    # run tests
-npm run build   # build for production
+npm start
